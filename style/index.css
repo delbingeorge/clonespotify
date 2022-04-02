@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+    font-family: "Akira";
+    src: url("../fonts/AkiraE.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Gotham";
+}
+
+nav {
+    width: 100%;
+    height: 9vh;
+    background-color: #000;
+}
+
+.nav-div img {
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    width: 9%;
+    position: absolute;
+}
+
+.sec-one {
+    min-height: 85vh;
+    background-color: #000000;
+}
+
+.div-one img {
+    width: 24%;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.div-one {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container a {
+    text-decoration: none;
+    padding: 5%;
+}
+
+.flex-item-left {
+    background-image: url("../images/ac1.jpg");
+    font-family: "Akira";
+    color: #000;
+    font-size: 2rem;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    transition: 0.3s linear;
+    filter: grayscale(100%);
+}
+
+.flex-item-left:hover {
+    background-image: url("../images/ac1.jpg");
+    filter: none;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+.flex-item-center {
+    background-image: url("../images/ac4.jpg");
+    background-size: cover;
+    font-family: "Akira";
+    color: #000;
+    font-size: 2rem;
+    border-radius: 15px;
+    transition: 0.3s linear;
+    filter: grayscale(100%);
+    height: 300px;
+    width: 300px;
+}
+
+.flex-item-center:hover {
+    background-image: url("../images/ac4.jpg");
+    filter: none;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+.flex-item-right {
+    background-image: url("../images/ac5.png");
+    background-size: cover;
+    font-family: "Akira";
+    color: #000;
+    font-size: 2rem;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    transition: 0.3s linear;
+    filter: grayscale(100%);
+}
+
+.flex-item-right:hover {
+    background-image: url("../images/ac5.png");
+    filter: none;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+footer {
+    min-height: 55vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.foot-ul img {
+    margin-top: 1.5rem;
+    width: 9%;
+}
+
+.foot-ul ul {
+    padding-top: 1.5rem;
+    margin-bottom: 3rem;
+    list-style-type: none;
+}
+.foot-ul li {
+    padding-left: 3.9rem;
+    padding-top: 0.8rem;
+    list-style-type: none;
+}
+
+.foot-ul h3 {
+    margin: 10px 0;
+}
+
+@media (max-width: 800px) {
+    .nav-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-div img {
+        margin-top: 2rem;
+        margin-left: 0;
+        width: 35%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item-left:hover,
+    .flex-item-center:hover,
+    .flex-item-right:hover {
+        transform: none;
+    }
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+    font-family: "Akira";
+    src: url("../fonts/AkiraE.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Gotham";
+}
+
+nav {
+    width: 100%;
+    height: 9vh;
+    background-color: #000;
+}
+
+.nav-div img {
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    width: 9%;
+    position: absolute;
+}
+
+.sec-one {
+    min-height: 85vh;
+    background-color: #000000;
+}
+
+.div-one img {
+    width: 24%;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.div-one {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container a {
+    text-decoration: none;
+    padding: 5%;
+}
+
+.flex-item-left {
+    background-image: url("../images/ac1.jpg");
+    font-family: "Akira";
+    color: #000;
+    font-size: 2rem;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    transition: 0.3s linear;
+    filter: grayscale(100%);
+}
+
+.flex-item-left:hover {
+    background-image: url("../images/ac1.jpg");
+    filter: none;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+.flex-item-center {
+    background-image: url("../images/ac4.jpg");
+    background-size: cover;
+    font-family: "Akira";
+    color: #000;
+    font-size: 2rem;
+    border-radius: 15px;
+    transition: 0.3s linear;
+    filter: grayscale(100%);
+    height: 300px;
+    width: 300px;
+}
+
+.flex-item-center:hover {
+    background-image: url("../images/ac4.jpg");
+    filter: none;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+.flex-item-right {
+    background-image: url("../images/ac5.png");
+    background-size: cover;
+    font-family: "Akira";
+    color: #000;
+    font-size: 2rem;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    transition: 0.3s linear;
+    filter: grayscale(100%);
+}
+
+.flex-item-right:hover {
+    background-image: url("../images/ac5.png");
+    filter: none;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+footer {
+    min-height: 55vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.foot-ul img {
+    margin-top: 1.5rem;
+    width: 9%;
+}
+
+.foot-ul ul {
+    padding-top: 1.5rem;
+    margin-bottom: 3rem;
+    list-style-type: none;
+}
+.foot-ul li {
+    padding-left: 3.9rem;
+    padding-top: 0.8rem;
+    list-style-type: none;
+}
+
+.foot-ul h3 {
+    margin: 10px 0;
+}
+
+.foot-ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.foot-ul a:hover {
+    text-decoration: none;
+    color: #1ab26b;
+}
+
+.footdiv{
+    min-height:5vh;
+}
+
+@media (max-width: 800px) {
+    .nav-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-div img {
+        margin-top: 2rem;
+        margin-left: 0;
+        width: 35%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item-left:hover,
+    .flex-item-center:hover,
+    .flex-item-right:hover {
+        transform: none;
+    }
+
+    .foot-ul img {
+        margin-top: 1.5rem;
+        width: 35%;
+    }
+}
