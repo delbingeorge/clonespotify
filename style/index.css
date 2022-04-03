@@ -16,6 +16,10 @@
     font-family: "Gotham";
 }
 
+body {
+    user-select: none;
+}
+
 ::-webkit-scrollbar {
     width: 4px;
 }
@@ -305,7 +309,7 @@ nav {
 .content-div {
     margin-left: 3.9rem;
     margin-right: 3.9rem;
-    margin-top: 4.7rem;
+    margin-top: 2.7rem;
     color: #fff;
 }
 
@@ -321,39 +325,39 @@ span {
 }
 
 footer {
+    color: #fff;
+    padding-left: 2.8rem;
     min-height: 55vh;
     background-color: #000;
-    color: #fff;
 }
 
-.foot-ul img {
-    margin-top: 1.5rem;
+footer img {
+    margin: 2rem 0 0 1rem;
     width: 9%;
 }
 
-.foot-ul ul {
-    padding-top: 1.5rem;
-    margin-bottom: 3rem;
-    list-style-type: none;
+.flex-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
-.foot-ul li {
-    padding-left: 3.9rem;
-    padding-top: 0.8rem;
-    list-style-type: none;
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
 }
 
-.foot-ul h3 {
-    margin: 10px 0;
+.col h3 {
+    padding-bottom: 1.7rem;
 }
 
-.foot-ul a {
+.col a {
+    padding-bottom: 0.9rem;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
-
-.foot-ul a:hover {
-    text-decoration: none;
+.col a:hover {
     color: #1ab26b;
 }
 
@@ -386,7 +390,7 @@ footer {
     .content-div {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
-        margin-top: 4.7rem;
+        margin-top: 1.7rem;
         color: #fff;
     }
 
@@ -407,14 +411,18 @@ footer {
         color: #1ab26b;
     }
 
-    .foot-ul img {
-        margin-top: 1.5rem;
-        width: 35%;
+    footer img {
+        width: 28%;
+        margin: 2rem 0 2rem 0;
     }
 
-    .foot-ul li {
-        padding-left: 2.5rem;
-        padding-top: 0.8rem;
-        list-style-type: none;
+    .col {
+        display: flex;
+        flex-direction: column;
+        margin: 0.1rem;
+    }
+
+    .flex-box {
+        flex-direction: column;
     }
 }
