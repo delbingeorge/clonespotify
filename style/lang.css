@@ -88,6 +88,11 @@ nav {
     padding-left: 2.2rem;
 }
 
+.list-song img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
 .cur-play {
     margin: 0 5rem;
     min-height: 15vh;
