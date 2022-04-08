@@ -86,6 +86,7 @@ nav {
     height: 300px;
     width: 300px;
     transition: 0.3s linear;
+    filter: grayscale(100%);
 }
 
 .flex-item-left:hover {
@@ -103,6 +104,7 @@ nav {
     font-size: 2rem;
     border-radius: 15px;
     transition: 0.3s linear;
+    filter: grayscale(100%);
     height: 300px;
     width: 300px;
 }
@@ -124,6 +126,7 @@ nav {
     height: 300px;
     width: 300px;
     transition: 0.3s linear;
+    filter: grayscale(100%);
 }
 
 .flex-item-right:hover {
@@ -378,6 +381,11 @@ footer img {
         flex-direction: column;
     }
 
+    .flex-item-left,
+    .flex-item-center,
+    .flex-item-right {
+        filter: none;
+    }
     .flex-item-left:hover,
     .flex-item-center:hover,
     .flex-item-right:hover {
