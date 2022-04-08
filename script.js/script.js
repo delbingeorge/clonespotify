@@ -14,6 +14,16 @@ function stopAllAudio() {
     });
 }
 
+function pauseAllAudio() {
+    audioOne.pause();
+    audioTwo.pause();
+    audioThree.pause();
+    audioFour.pause();
+    audioFive.pause();
+    audioSix.pause();
+    audioSeven.pause();
+}
+
 document.querySelector("#play-1").addEventListener("click", function () {
     stopAllAudio();
     audioOne.play();
